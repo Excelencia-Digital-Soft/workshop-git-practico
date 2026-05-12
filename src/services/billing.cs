@@ -1,1 +1,1 @@
-public decimal CalcularTotal() { return subtotal * 1.105m; }
+public decimal CalcularTotal(decimal iva) { return subtotal * (1+iva); }
